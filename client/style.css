@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-image: url('./img/background.jpg');
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    width: 300px;
+}
+
+button#addNote{
+    display: block;
+    margin: 12px auto;
+}
+
+textarea {
+    height: 91px;
+}
+
+label {
+    font-size: 25px;
+    font-family: tahoma;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.note {
+    background-image: url("./img/note.png");
+    height: 280px;
+    width: 280px;
+    box-sizing: border-box;
+    padding: 60px;
+    display: inline-block;
+    position: relative;
+}
+
